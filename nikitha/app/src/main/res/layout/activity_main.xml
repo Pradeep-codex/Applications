@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image with centerCrop to avoid stretch -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mainimg"
+        android:scaleType="centerCrop" />
+
+    <!-- UI overlay -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- App Logo Text -->
+        <TextView
+            android:id="@+id/logoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking App"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="40dp" />
+
+        <!-- Vehicle Number Input -->
+        <EditText
+            android:id="@+id/vehicleNumberInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Vehicle Number"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:textSize="18sp"
+            android:textColor="#FF000000"
+            android:textColorHint="#DDFFFFFF"/>
+
+        <!-- Select Slot Button -->
+        <Button
+            android:id="@+id/selectSlotButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Slot"
+            android:layout_marginTop="24dp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</FrameLayout>

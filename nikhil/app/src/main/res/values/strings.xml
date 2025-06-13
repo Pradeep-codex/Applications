@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.HabitTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary branding color -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary branding color -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

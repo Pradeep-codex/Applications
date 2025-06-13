@@ -1,0 +1,6 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="purple_500">#6200EE</color> <!-- optional, if you want accent colors -->
+    <color name="purple_700">#3700B3</color>
+</resources>

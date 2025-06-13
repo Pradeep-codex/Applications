@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addHabitRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEDE1"
+    android:padding="24dp">
+
+    <!-- Container to center all content -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:elevation="6dp"
+        android:padding="24dp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="32dp"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/habitInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter your habit"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/saveHabitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Add Habit"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

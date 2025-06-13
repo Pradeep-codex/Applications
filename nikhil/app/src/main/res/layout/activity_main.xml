@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#E3F2FD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HabitLog"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+    <!-- Add Habit Button -->
+<Button
+android:id="@+id/addHabitBtn"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="+ Add Habit"
+android:textAllCaps="false"
+android:backgroundTint="#1976D2"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    android:padding="12dp"
+    android:elevation="4dp" />
+
+
+
+    <!-- Empty State Text -->
+<TextView
+android:id="@+id/noHabitsText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="No habits yet. Add one!"
+android:textSize="18sp"
+android:textColor="#888888"
+android:gravity="center"
+android:padding="24dp"
+android:visibility="gone" />
+
+    <!-- Habit List -->
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/recyclerView"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:clipToPadding="false"
+    android:background="#F0F0F0"
+    android:paddingTop="8dp"
+android:paddingBottom="8dp" />
+
+    </LinearLayout>

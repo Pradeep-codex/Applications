@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.ParkingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#4CAF50</item> <!-- Green -->
+        <item name="colorPrimaryVariant">#388E3C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#388E3C</item>
+    </style>
+</resources>
